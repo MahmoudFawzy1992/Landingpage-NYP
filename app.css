@@ -1,0 +1,103 @@
+
+/* global styles */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@font-face {
+    src: url('assets/font/29lt-bukra-bold.ttf');
+    font-family: "29LTBukra";
+}
+
+body {
+    font-family: lato;
+}
+ 
+
+/* singup section */
+.signup-container {
+    width: 440px;
+    border-radius: 5px;
+    box-shadow: 0 6px 67px 0 rgba(11, 116, 55, 0.14);
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    z-index: 10;
+    background: white;
+    margin-top: 150px;
+    padding-bottom: 30px;
+}
+
+.signup-title {
+    transform: rotate(-3deg);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 42px;
+    color: #4d4d4d;
+}
+
+.grey-text-15 {
+    font-size: 15px;
+    text-align: center;
+    color: #888888;
+}
+
+.grey-text-13 {
+    font-size: 13px;
+    text-align: center;
+    color: #888888;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-control {
+    border: none;
+    border-bottom: solid 1px #e4e4e4;
+    font-family: "29LTBukra";
+    color: #4d4d4d;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+}
+label {
+    margin-bottom: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.signup-btn {
+    border-radius: 3px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: #d92f26;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.signup-btn:hover {
+    color: white;
+}
+
+
+/* content styles  */
+.benefits-title {
+    font-size: 32px;
+    font-weight: normal;
+    color: #4d4d4d;
+    text-transform: uppercase;
+
+}
+.red-seperator {
+    width: 68px;
+  border-radius: 2px;
+    background-color: #d92f26;
+    height: 3px;
+}
+.grey-text-17 {
+    font-size: 17px;
+    text-align: center;
+    color: #888888;
+}
+.bottom-seperator {
+    border-bottom: solid 2px #d8d8d8;
+}
